@@ -120,11 +120,11 @@ And I type "sDefault" into textbox 'Project key' in pop-up 'New Project'
 And I type "test" into textbox 'Description' in pop-up 'New Project'
 And I select item "private" in drop-down 'Project Type' in pop-up 'New Project'
 And I click on button "Create" on pop-up "New Project"
-Then I see success notification ""
+Then I see success notification 
 And I see that project is added to panel 'Projects'
 And I select project in panel 'Projects' in page "Dashboard"
 And I change drop-down 'Saving mode' value to "requiring confirmation" in page 'Project settings'
-And I see success notification ""
+And I see success notification 
 And I check that VCS "smoke" is absent in DB
 And I click button 'Plus' near setting 'Version control system' in page 'Project settings'
 Then I see pop up "ADD GIT REPOSITORY PATH" is opened
