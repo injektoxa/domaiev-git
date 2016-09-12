@@ -99,7 +99,7 @@ And I click on button "Cancel" on pop-up "RENAME AND MOVE FEATURE FILE"
 And I see pop up "RENAME AND MOVE FEATURE FILE" was closed
 And I can see that element "search_book" is in position "3" in the tree
 
-Examples: 
+"""Examples: 
 |invalid|
 |~|
 |`|
@@ -108,7 +108,7 @@ Examples:
 |#|
 |$|
 |%|
-"""|^|
+|^|
 |&|
 |*|
 |(|
@@ -140,7 +140,7 @@ And I click on button "Cancel" on pop-up "RENAME AND MOVE FOLDER"
 And I see pop up "RENAME AND MOVE FOLDER" was closed
 And I can see that element "book" is in position "2" in the tree
 
-Examples: 
+"""Examples: 
 |invalid|
 |~|
 |`|
@@ -149,7 +149,7 @@ Examples:
 |#|
 |$|
 |%|
-"""|^|
+|^|
 |&|
 |*|
 |(|
