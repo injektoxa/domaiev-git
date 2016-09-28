@@ -1,4 +1,4 @@
-@EditAndSaveScenario @ST_479773502
+@EditAndSaveScenario @ST_342469491
 Feature: Edit and save scenario
 
 Background: 
@@ -14,7 +14,7 @@ And I click on button "Update" on pop-up "UPDATE DATA FROM GIT"
 Then I see success notification ""
 When I select feature "ElevenScenarios" in the tree
 
-@REL-852 @SC_530155839
+@REL-852 @SC_292771943
 Scenario: Edit + save by Save option
 #    And I edit example table description in Scenario Editor
 #    And I edit example table data cell in Scenario Editor
@@ -32,7 +32,7 @@ And I click option "Save" under drop-down 'Actions' in scenario accordion
 Then I see that the scenario is collapsed
 And I see that changes are successfully saved and changed data matches data in Scenario Editor for the edited scenario
 
-@REL-853 @SC_496536527
+@REL-853 @SC_360615784
 Scenario: Edit + Save by Save scenarios pop-up
 #    And I edit example table description in Scenario Editor
 #    And I edit example table data cell in Scenario Editor
@@ -51,7 +51,7 @@ And I click on button "Save" on pop-up "SAVE SCENARIOS"
 Then I see that the scenario is collapsed
 And I see that changes are successfully saved and changed data matches data in Scenario Editor for the edited scenario
 
-@REL-854 @SC_549888885
+@REL-854 @SC_299653880
 Scenario: Edit + Save several scenarios by Save scenarios pop-up
 #    And I edit example table description in Scenario Editor
 #    And I edit example table data cell in Scenario Editor
@@ -102,7 +102,7 @@ And I see success notification "2 of 2 selected scenarios were successfully save
 Then I see that the scenario is collapsed
 And I see that changes are successfully saved and changed data matches data in Scenario Editor for the edited scenario
 
-@REL-857 @SC_500159325
+@REL-857 @SC_302235961
 Scenario: Empty lines should be skipped
 #    And I edit example table description in Scenario Editor
 #    And I edit example table data cell in Scenario Editor

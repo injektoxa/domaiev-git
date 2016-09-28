@@ -1,7 +1,7 @@
-@NavigationPanel @ST_500576097
+@NavigationPanel @ST_299123422
 Feature: Navigation Panel
 
-@REL-965 @SC_515939119
+@REL-965 @SC_345325047
 Scenario: Check top and left navigation panels
 Given I am in page "Default"
 And I am signed in

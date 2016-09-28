@@ -1,4 +1,4 @@
-@JiraEditorPage @ST_498517911
+@JiraEditorPage @ST_345515465
 Feature: Jira editor page
 
 Background: 
@@ -40,7 +40,7 @@ Then I see pop up "ADD JIRA PATH" was closed
 Then I see success notification ""
 Then I see that "https://jira.unitedsofthouse.com/" is added to setting 'Task tracking system' in page 'Project settings'
 
-@REL-794 @SC_482541490
+@REL-794 @SC_350910887
 Scenario: Check that Jira linked story can be created
 When I selected menu "san4aJiraAccount" in dropdown 'Account' at block TTS
 Then I see success notification ""
@@ -54,7 +54,7 @@ And I click on button "Create" on pop-up "New feature"
 Then I see that new jira-linked feature is successfully created
 And I see that data from linked Jira issue matches data in new feature in feature info block under the tree
 
-@REL-795 @SC_490862149
+@REL-795 @SC_316145051
 Scenario: Check that Jira linked story can't be created without valid Jira path and account
 When I selected menu "san4aGitAccount" in dropdown 'Account' at block TTS
 And I see error notification ""
@@ -64,7 +64,7 @@ And I see pop up "New feature" is opened
 And I see that checkbox 'Jira linked' is disabled
 And I see that checkbox 'Jira linked' tooltip equals "Set up Jira at Project settings page"
 
-@REL-796 @SC_484232000
+@REL-796 @SC_364311585
 Scenario: Check that Jira linked story can be changed by use
 When I selected menu "san4aJiraAccount" in dropdown 'Account' at block TTS
 Then I see success notification ""

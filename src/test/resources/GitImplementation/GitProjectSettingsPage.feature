@@ -1,4 +1,4 @@
-@GitProjectSettingsPage @ST_509082698
+@GitProjectSettingsPage @ST_298314726
 Feature: Project settings page
 
 Background: 
@@ -20,12 +20,12 @@ And I select project "rDefaultOne"
 And I am in page "Project Settings"
 And I change drop-down 'Saving mode' value to "requiring confirmation" in page 'Project settings'
 
-@REL-773 @SC_481493792
+@REL-773 @SC_337987942
 Scenario: Check that button 'Load/Reload from GIT' is absent
 Then I can see that block 'Version control system' is empty
 And I can't see button 'Load/Reload project from GIT' in block "Version control system'
 
-@REL-768 @SC_539353091
+@REL-768 @SC_368008240
 Scenario: Check 'Load project from GIT' button for the first time
 And I check that VCS "default" is absent in DB
 And I click button 'Plus' near setting 'Version control system' in page 'Project settings'
@@ -43,7 +43,7 @@ And Unique tags appear in Git repository "[default]blob/master/src/test/resource
 And I am in page "Editor"
 And I can see project was uploaded
 
-@REL-769 @SC_470761697
+@REL-769 @SC_349872733
 Scenario: Check 'Load project from GIT' button for the non-first time
 And I click button 'Plus' near setting 'Version control system' in page 'Project settings'
 Then I see pop up "ADD GIT REPOSITORY PATH" is opened
@@ -65,7 +65,7 @@ And Unique tags appear in Git repository "[default]blob/master/src/test/resource
 And I am in page "Editor"
 And I can see project was uploaded
 
-@REL-771 @SC_470380252
+@REL-771 @SC_360714955
 Scenario: Check notification when project was uploaded with errors
 And I click button 'Plus' near setting 'Version control system' in page 'Project settings'
 Then I see pop up "ADD GIT REPOSITORY PATH" is opened
